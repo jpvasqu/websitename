@@ -1,0 +1,93 @@
+body {
+    background-image: url('Frame 7 .png');
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  
+  }
+.driver{
+    background-image: url('Frame 6.png');
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+.title{
+    margin: auto;
+    margin-top:70px;
+    margin-left: 70px;
+    font-size: xx-large;
+    font-family: Asus Rog;
+    width: 50%;
+    padding: 10px;
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+
+   
+}
+
+.title1{
+    margin: auto;
+    margin-top:20px;
+    margin-left: 600px;
+    font-size: xx-large;
+    font-family: Asus Rog;
+    width: 50%;
+    padding: 10px;
+
+   
+}
+h1{
+    display: inline;
+}
+.text{
+    text-align: justify;
+    margin-top: 1px;
+    margin-left: 50px;
+    padding-left: 50    px;
+    font-size: 27px;
+    font-family: Asus Rog;
+ 
+   
+}
+.dropbtn {
+    background-color: #0b0b0b;
+    color: white;
+    padding: 16px;
+    font-family: Asus Rog;
+    font-size: 16px;
+    border-radius: 7%;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    margin-left: 1200px;
+    left: 0px;
+    top: 60px;
+    position: relative;
+    
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #606060;
+  }

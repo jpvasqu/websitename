@@ -1,0 +1,120 @@
+body{
+  background-image: url('Frame 2.png');
+
+  background-image: url('Frame 4.png');
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.android{
+  background-image: url('Frame 3.png');
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+h1{
+  position: absolute;
+  left: 100px;
+  top: 120px;
+  font-family: Asus Rog;
+}
+
+.title{
+  margin-top: 150px;
+  margin-left: 80px;
+  padding-bottom: 1px;
+  font-size: xx-large;
+  font-family: Asus Rog;
+  width: 50%;
+  padding: 10px;
+  padding-bottom: 0%;
+  margin-bottom: 0%;
+}
+.title1{
+  margin-left: 650px;
+  font-size: xx-large;
+  font-family: Asus Rog;
+  width: 50%;
+  padding: 10px;
+}
+.text{
+  text-align: justify;
+  margin-top: 1px;
+  margin-left: 50px;
+  padding-left: 50    px;
+  font-size: 27px;
+  font-family: Asus Rog;
+}
+h3{
+  display: inline;
+
+}
+
+.android .btn {
+  position: absolute;
+  top: 640px;
+  left: 360px;
+  font-family: Asus Rog;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  background-color: #908c8c;
+  font-size: 16px;
+  font-family: Asus Rog;
+  color: black;
+  padding: 35px 65px;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.android .btn:hover{
+  background-color: rgb(17, 17, 17);
+  color: white;
+  font-family: Asus Rog;
+  
+}
+
+
+.dropbtn {
+    background-color: #ededed;
+    color: rgb(9, 9, 9);
+    padding: 16px;
+    font-family: Asus Rog;
+    font-size: 16px;
+    border-radius: 7%;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropdown {
+    margin-left: 1200px;
+    left: 0px;
+    top: 60px;
+    position: relative;
+    
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .dropdown:hover .dropbtn {
+    background-color: #606060;
+  }
